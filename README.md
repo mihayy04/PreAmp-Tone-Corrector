@@ -3,9 +3,9 @@
 ![Integrated Circuit Render](Integrated%20Circuit.png)
 
 ## 📌 Project Overview
-[cite_start]This repository contains the complete hardware design for an audio preamplifier featuring a dual-band tone corrector and an integrated linear power supply[cite: 308, 309, 824]. The entire project—from schematic capture and SPICE simulations to PCB layout—was developed using **Cadence OrCAD**.
+This repository contains the complete hardware design for an audio preamplifier featuring a dual-band tone corrector and an integrated linear power supply[cite: 308, 309, 824]. The entire project—from schematic capture and SPICE simulations to PCB layout—was developed using **Cadence OrCAD**.
 
-[cite_start]The circuit is built using discrete components and is designed to provide high-quality audio signal amplification with precise control over low and high frequencies[cite: 309, 313].
+The circuit is built using discrete components and is designed to provide high-quality audio signal amplification with precise control over low and high frequencies[cite: 309, 313].
 
 ## 🚀 Key Features
 * **Active Tone Control:** Independent attenuation and amplification ($\pm20dB$) for bass (<500Hz) and treble (>1kHz) frequencies using an RC feedback network[cite: 311, 314, 327].
