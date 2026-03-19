@@ -1,0 +1,104 @@
+\t (00:00:02) allegro 25.1 P001 (4349869) [9/14/2025] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Jan 26 01:03:32 2026
+\t (00:00:02)         Host=MIHAYY User=mikey Pid=14664 CPUs=12
+\t (00:00:02) CmdLine= c:\cadence\orcadx_25.1\tools\bin\allegro.exe C:\Facultate\Proiect Apd OrCad\OrCAD\PROIECT_APD_Ispas_pcb.brd
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "PROIECT_APD_Ispas_pcb"
+\d (00:00:05) Design opened: C:/Facultate/Proiect Apd OrCad/OrCAD/PROIECT_APD_Ispas_pcb.brd
+\i (00:00:05) trapsize 766
+\i (00:00:05) trapsize 790
+\i (00:00:05) trapsize 766
+\i (00:00:06) trapsize 655
+\i (00:00:06) trapsize 655
+\t (00:00:06) > Sending response DoneOpenBoard
+\i (00:00:07) updateport SearchPane
+\i (00:00:07) generaledit 
+\i (00:02:07) artwork 
+\i (00:02:31) setwindow form.film_control
+\i (00:02:31) FORM film_control filmtree  TOP 
+\i (00:02:32) FORM film_control filmtree  SSTOP 
+\i (00:02:35) FORM film_control filmtree  BO 
+\i (00:04:32) FORM film_control generate_films  
+\t (00:04:32) Loading consmgr.cxt 
+\t (00:04:32) Loading acns_formula.cxt 
+\t (00:04:32) Loading mfg.cxt 
+\i (00:04:32) setwindow pcb
+\i (00:04:32) updateport CVPane
+\i (00:04:35) setwindow form.film_control
+\i (00:04:35) FORM film_control generate_films  
+\i (00:04:35) setwindow pcb
+\i (00:04:35) updateport CVPane
+\i (00:04:36) setwindow form.film_control
+\i (00:04:36) FORM film_control domain_setting  
+\i (00:04:38) setwindow form.film_domain
+\i (00:04:38) FORM film_domain cancel  
+\i (00:04:38) setwindow form.film_control
+\i (00:04:38) FORM film_control filmtree  ASSYBT 
+\i (00:04:41) FORM film_control generate_films  
+\i (00:04:41) setwindow pcb
+\i (00:04:41) updateport CVPane
+\i (00:04:43) setwindow form.film_control
+\i (00:04:43) FORM film_control domain_setting  
+\i (00:04:45) setwindow form.film_domain
+\i (00:04:45) FORM film_domain close  
+\i (00:04:45) setwindow form.film_control
+\i (00:04:45) FORM film_control filmtree  ASSYBT 
+\i (00:04:47) FORM film_control generate_films  
+\i (00:04:47) setwindow pcb
+\i (00:04:47) updateport CVPane
+\i (00:05:45) setwindow form.film_control
+\i (00:05:45) FORM film_control filmtree  ASSYBT 
+\i (00:06:01) FORM film_control domain_setting  
+\i (00:06:03) setwindow form.film_domain
+\i (00:06:03) FORM film_domain close  
+\i (00:06:03) setwindow form.film_control
+\i (00:06:03) FORM film_control filmtree  ASSYBT 
+\i (00:06:11) FORM film_control filmtree  BOTTOM 
+\i (00:06:11) FORM film_control filmtree 'MULTISEL YES' BOTTOM 
+\i (00:06:21) FORM film_control general_parameters  
+\i (00:06:26) FORM film_control film_control  
+\i (00:06:32) FORM film_control filmtree  TOP 
+\i (00:06:40) FORM film_control load  
+\i (00:06:42) fillin "menu_cancel"
+\i (00:07:21) FORM film_control domain_setting  
+\i (00:07:26) setwindow form.film_domain
+\i (00:07:26) FORM film_domain close  
+\i (00:07:26) setwindow form.film_control
+\i (00:07:26) FORM film_control filmtree  ASSYBT 
+\i (00:07:29) FORM film_control film_categories  
+\i (00:09:41) FORM film_control filmtree  BOTTOM 
+\i (00:09:43) FORM film_control filmtree  ASSYBT 
+\i (00:09:44) FORM film_control filmtree 'MULTISEL YES' ASSYBT 
+\i (00:09:45) FORM film_control filmtree  ASSYTP 
+\i (00:09:45) FORM film_control filmtree 'MULTISEL YES' ASSYTP 
+\i (00:09:46) FORM film_control filmtree  BOTTOM 
+\i (00:09:46) FORM film_control filmtree 'MULTISEL YES' BOTTOM 
+\i (00:09:47) FORM film_control filmtree  NCLEGEND-1-2 
+\i (00:09:47) FORM film_control filmtree 'MULTISEL YES' NCLEGEND-1-2 
+\i (00:09:52) FORM film_control filmtree  SMBT 
+\i (00:09:52) FORM film_control filmtree 'MULTISEL YES' SMBT 
+\i (00:09:53) FORM film_control filmtree  SMTP 
+\i (00:09:53) FORM film_control filmtree 'MULTISEL YES' SMTP 
+\i (00:09:54) FORM film_control filmtree  SPBT 
+\i (00:09:54) FORM film_control filmtree 'MULTISEL YES' SPBT 
+\i (00:09:55) FORM film_control filmtree  SPTP 
+\i (00:09:55) FORM film_control filmtree 'MULTISEL YES' SPTP 
+\i (00:09:56) FORM film_control filmtree  SSBT 
+\i (00:09:56) FORM film_control filmtree 'MULTISEL YES' SSBT 
+\i (00:09:57) FORM film_control filmtree  SSTP 
+\i (00:09:57) FORM film_control filmtree 'MULTISEL YES' SSTP 
+\i (00:09:58) FORM film_control filmtree  TOP 
+\i (00:10:14) FORM film_control select_all  
+\i (00:10:43) FORM film_control create  
+\t (00:10:43) Checking db records
+\t (00:10:43)     checking for orphans...
+\t (00:10:43)     Checked 100 percent
+\t (00:10:43) Done dbdoctor.
+\t (00:10:44) Starting Create artwork films...
+\i (00:10:44) setwindow pcb
+\i (00:10:44) updateport SearchPane
+\t (00:10:44) SpawnProcessExit background process completed status = 1
+
+\w (00:10:44) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.

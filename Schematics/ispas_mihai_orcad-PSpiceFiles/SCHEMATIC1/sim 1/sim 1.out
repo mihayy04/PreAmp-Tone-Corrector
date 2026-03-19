@@ -1,0 +1,322 @@
+
+**** 12/01/25 20:14:50 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim 1"  [ c:\facultate\proiect apd orcad\p1_2025_433a_ispas_mihai_dumitru_pact_n4_orcad\schematics\ispas_mih
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim 1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\mikey\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\25.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1k 1 100meg
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source ISPAS_MIHAI_ORCAD
+R_R12         0 N01036  510 TC=0,0 
+R_R11         0 N01165  510k TC=0,0 
+R_R10         0 N00985  510k TC=0,0 
+R_R7         N00966 N00942  1k TC=0,0 
+R_R1         0 N00888  47k TC=0,0 
+R_R2         N00908 N00888  47k TC=0,0 
+R_R6         N01719 N01708  1k TC=0,0 
+R_R8         N00920 N03460  100 TC=0,0 
+R_R9         N01731 N01788  47k TC=0,0 
+R_R13         0 N01812  47k TC=0,0 
+X_HIGH         N01731 N01095 N00908 POT PARAMS: SET=0.95 VALUE=50k
+X_MID         N01731 N01719 N00908 POT PARAMS: SET=0.95 VALUE=50k
+X_LOW         N01731 N00920 N00908 POT PARAMS: SET=0.9 VALUE=50k
+R_R3         N01045 N01052  510 TC=0,0 
+R_R4         N01086 N01095  100 TC=0,0 
+R_R5         N01146 N01153  330 TC=0,0 
+V_V1         N02003 0  AC 0.5
++SIN 0 0.5 1k 0 0 0
+V_V2         VCC 0 15Vdc
+V_V3         0 -VCC 15Vdc
+X_U1D         N00985 N00966 VCC -VCC N00966 LM324
+X_U1A         N01036 N01045 VCC -VCC N01045 LM324
+X_U1B         N00908 N01731 VCC -VCC N01788 LM324
+X_U1C         N01146 N01165 VCC -VCC N01146 LM324
+C_C6         N00985 N00942  22n  TC=0,0 
+C_C7         N00942 N03460  1u  
+C_C10         N01153 N01708  1n  TC=0,0 
+C_C2         N01036 N01052  100p  TC=0,0 
+C_C8         N01812 N01788  4.7u  TC=0,0 
+C_C1         N00888 N02003  4.7u  TC=0,0 
+C_C4         N01165 N01153  2.2n  TC=0,0 
+C_C3         N01086 N01052  2.2n  TC=0,0 
+
+**** RESUMING "sim 1.cir" ****
+.END
+
+**** 12/01/25 20:14:50 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim 1"  [ c:\facultate\proiect apd orcad\p1_2025_433a_ispas_mihai_dumitru_pact_n4_orcad\schematics\ispas_mih
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1D.dx        X_U1D.dy        X_U1A.dx        X_U1A.dy        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
+
+
+               X_U1B.dx        X_U1B.dy        X_U1C.dx        X_U1C.dy        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
+
+
+**** 12/01/25 20:14:50 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim 1"  [ c:\facultate\proiect apd orcad\p1_2025_433a_ispas_mihai_dumitru_pact_n4_orcad\schematics\ispas_mih
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1D.qx        X_U1A.qx        X_U1B.qx        X_U1C.qx        
+               PNP             PNP             PNP             PNP             
+       LEVEL    1               1               1               1            
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          BF  166.7           166.7           166.7           166.7          
+          NF    1               1               1               1            
+          BR    1               1               1               1            
+          NR    1               1               1               1            
+         ISS    0               0               0               0            
+          RE    0               0               0               0            
+          RC    0               0               0               0            
+         CJE    0               0               0               0            
+         VJE     .75             .75             .75             .75         
+         CJC    0               0               0               0            
+         VJC     .75             .75             .75             .75         
+         MJC     .33             .33             .33             .33         
+        XCJC    1               1               1               1            
+         CJS    0               0               0               0            
+         VJS     .75             .75             .75             .75         
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.2             2.2             2.2             2.2          
+           D     .52             .52             .52             .52         
+
+
+**** 12/01/25 20:14:50 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim 1"  [ c:\facultate\proiect apd orcad\p1_2025_433a_ispas_mihai_dumitru_pact_n4_orcad\schematics\ispas_mih
+
+
+ ****     Current Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1D.sw2       X_U1D.sw1       X_U1D.sw3       X_U1D.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U1A.sw2       X_U1A.sw1       X_U1A.sw3       X_U1A.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U1B.sw2       X_U1B.sw1       X_U1B.sw3       X_U1B.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U1C.sw2       X_U1C.sw1       X_U1C.sw3       X_U1C.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+**** 12/01/25 20:14:50 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim 1"  [ c:\facultate\proiect apd orcad\p1_2025_433a_ispas_mihai_dumitru_pact_n4_orcad\schematics\ispas_mih
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)   15.0000  ( -VCC)  -15.0000  (N00888)     .0016 (N00908)     .0031     
+
+(N00920)     .0029 (N00942)     .0226 (N00966)     .0226 (N00985)     .0228     
+
+(N01036) 22.81E-06 (N01045)-169.7E-06 (N01052)-169.7E-06 (N01086)     .0029     
+
+(N01095)     .0029 (N01146)     .0231 (N01153)     .0231 (N01165)     .0229     
+
+(N01708)     .0029 (N01719)     .0029 (N01731)     .0029 (N01788) 261.6E-06     
+
+(N01812)    0.0000 (N02003)    0.0000 (N03460)     .0029 (X_U1A.6) 32.28E-09    
+
+(X_U1A.7)-171.9E-06                   (X_U1A.8)-171.9E-06                       
+
+(X_U1A.9)    0.0000                   (X_U1A.a)   15.0000                       
+
+(X_U1A.b)-1.764E-06                   (X_U1B.6)-48.77E-09                       
+
+(X_U1B.7) 258.7E-06                   (X_U1B.8) 258.7E-06                       
+
+(X_U1B.9)    0.0000                   (X_U1B.a)   15.0000                       
+
+(X_U1B.b)-1.954E-06                   (X_U1C.6)-4.358E-06                       
+
+(X_U1C.7)     .0231                   (X_U1C.8)     .0231                       
+
+(X_U1C.9)    0.0000                   (X_U1C.a)   15.0000                       
+
+(X_U1C.b)-1.760E-06                   (X_U1D.6)-4.261E-06                       
+
+(X_U1D.7)     .0226                   (X_U1D.8)     .0226                       
+
+(X_U1D.9)    0.0000                   (X_U1D.a)   15.0000                       
+
+(X_U1D.b)-1.764E-06                   (X_U1A.10)     .6076                      
+
+(X_U1A.11)  -14.9600                  (X_U1A.12)  -14.9600                      
+
+(X_U1A.13)     .5937                  (X_U1A.14)     .5938                      
+
+(X_U1A.53)   13.5000                  (X_U1A.54)  -14.1780                      
+
+(X_U1A.90)-44.95E-06                  (X_U1A.91)   40.0000                      
+
+(X_U1A.92)  -40.0000                  (X_U1A.99)    0.0000                      
+
+(X_U1B.10)     .6107                  (X_U1B.11)  -14.9600                      
+
+(X_U1B.12)  -14.9600                  (X_U1B.13)     .5968                      
+
+(X_U1B.14)     .5968                  (X_U1B.53)   13.5000                      
+
+(X_U1B.54)  -14.1780                  (X_U1B.90)-56.56E-06                      
+
+(X_U1B.91)   40.0000                  (X_U1B.92)  -40.0000                      
+
+(X_U1B.99)    0.0000                  (X_U1C.10)     .6307                      
+
+(X_U1C.11)  -14.9600                  (X_U1C.12)  -14.9600                      
+
+(X_U1C.13)     .6168                  (X_U1C.14)     .6169                      
+
+(X_U1C.53)   13.5000                  (X_U1C.54)  -14.1780                      
+
+(X_U1C.90)-44.72E-06                  (X_U1C.91)   40.0000                      
+
+(X_U1C.92)  -40.0000                  (X_U1C.99)    0.0000                      
+
+(X_U1D.10)     .6304                  (X_U1D.11)  -14.9600                      
+
+(X_U1D.12)  -14.9600                  (X_U1D.13)     .6165                      
+
+(X_U1D.14)     .6165                  (X_U1D.53)   13.5000                      
+
+(X_U1D.54)  -14.1780                  (X_U1D.90)-44.95E-06                      
+
+(X_U1D.91)   40.0000                  (X_U1D.92)  -40.0000                      
+
+(X_U1D.99)    0.0000                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+    V_V2        -1.328E-02
+    V_V3        -1.328E-02
+    X_U1D.vb    -4.261E-11
+    X_U1D.vc     1.348E-11
+    X_U1D.ve     1.614E-11
+    X_U1D.vlim  -4.495E-08
+    X_U1D.vlp   -4.000E-11
+    X_U1D.vln   -4.000E-11
+    X_U1A.vb     3.228E-13
+    X_U1A.vc     1.350E-11
+    X_U1A.ve     1.612E-11
+    X_U1A.vlim  -4.495E-08
+    X_U1A.vlp   -4.000E-11
+    X_U1A.vln   -4.000E-11
+    X_U1B.vb    -4.877E-13
+    X_U1B.vc     1.350E-11
+    X_U1B.ve     1.612E-11
+    X_U1B.vlim  -5.656E-08
+    X_U1B.vlp   -4.000E-11
+    X_U1B.vln   -4.000E-11
+    X_U1C.vb    -4.358E-11
+    X_U1C.vc     1.348E-11
+    X_U1C.ve     1.614E-11
+    X_U1C.vlim  -4.472E-08
+    X_U1C.vlp   -4.000E-11
+    X_U1C.vln   -4.000E-11
+
+    TOTAL POWER DISSIPATION   3.98E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/01/25 20:14:50 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim 1"  [ c:\facultate\proiect apd orcad\p1_2025_433a_ispas_mihai_dumitru_pact_n4_orcad\schematics\ispas_mih
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .27
+

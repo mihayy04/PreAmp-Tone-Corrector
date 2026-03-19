@@ -1,0 +1,82 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (SoftwareVersion "25.1 P001 (4349869)  [9/14/2025]-[12/01/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (File ".\ispas_mihai_orcad.DSN"
+      (Type "Schematic Design")
+      (DisplayName ".\ispas_mihai_orcad.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\Facultate\Proiect Apd OrCad\OrCAD\P1.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "C:\FACULTATE\PROIECT APD ORCAD\ORCAD\ISPAS_MIHAI_ORCAD.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\ispas_mihai_orcad-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.net"
+      (Type "Report")
+      (DisplayName ".\ispas_mihai_orcad-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.net"))
+    (File ".\p1.bom"
+      (Type "Report")
+      (DisplayName ".\p1.bom")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\ispas_mihai_orcad-pspicefiles\schematic1\sim 1.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ispas_mihai_orcad-pspicefiles\schematic1\sim 1.sim"
+        (DisplayName "SCHEMATIC1-sim 1")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (MPSSessionName "mikey")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\facultate\proiect apd orcad\p1_2025_433a_ispas_mihai_dumitru_pact_n4_orcad\schematics\ispas_mihai_orcad.DSN")
+      (Path "Design Resources"
+         "c:\facultate\proiect apd orcad\p1_2025_433a_ispas_mihai_dumitru_pact_n4_orcad\schematics\ispas_mihai_orcad.DSN"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "c:\facultate\proiect apd orcad\p1_2025_433a_ispas_mihai_dumitru_pact_n4_orcad\schematics\ispas_mihai_orcad.DSN"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView
+      (Path "SCHEMATIC1"))
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 240 0 605"))
+      (Tab 1))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1250 24 623")
+        (Scroll "-228 -3")
+        (Zoom "78")
+        (Occurrence "/"))
+      (Path
+         "C:\FACULTATE\PROIECT APD ORCAD\P1_2025_433A_ISPAS_MIHAI_DUMITRU_PACT_N4_ORCAD\SCHEMATICS\ISPAS_MIHAI_ORCAD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

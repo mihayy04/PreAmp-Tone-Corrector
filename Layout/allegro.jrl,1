@@ -1,0 +1,26 @@
+\t (00:00:02) allegro 25.1 P001 (4349869) [9/14/2025] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Jan 26 00:51:51 2026
+\t (00:00:02)         Host=MIHAYY User=mikey Pid=23232 CPUs=12
+\t (00:00:02) CmdLine= c:\cadence\orcadx_25.1\tools\bin\allegro.exe C:\Facultate\Proiect Apd OrCad\OrCAD\PROIECT_APD_Ispas_pcb.brd
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "PROIECT_APD_Ispas_pcb"
+\d (00:00:05) Design opened: C:/Facultate/Proiect Apd OrCad/OrCAD/PROIECT_APD_Ispas_pcb.brd
+\i (00:00:05) trapsize 766
+\i (00:00:05) trapsize 790
+\i (00:00:05) trapsize 766
+\i (00:00:06) trapsize 655
+\i (00:00:06) trapsize 655
+\t (00:00:06) > Sending response DoneOpenBoard
+\i (00:00:07) updateport SearchPane
+\i (00:00:07) generaledit 
+\i (00:02:23) exit 
+\t (00:02:23) Loading consmgr.cxt 
+\t (00:02:23) Loading acns_formula.cxt 
+\t (00:02:23) Lic Summary:
+[00:54:12.373443] Cdslmd servers:C:\Users\mikey\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[00:54:12.373770] Feature usage summary:
+[00:54:12.373770] OrCAD_X_PCB_Professional_Plus  
+[00:54:12.373771] OrCAD_X_Professional_Plus  
+\t (00:02:23)     Journal end - Mon Jan 26 00:54:12 2026
