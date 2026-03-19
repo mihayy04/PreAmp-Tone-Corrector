@@ -8,9 +8,9 @@ This repository contains the complete hardware design for an audio preamplifier 
 The circuit is built using discrete components and is designed to provide high-quality audio signal amplification with precise control over low and high frequencies[cite: 309, 313].
 
 ## 🚀 Key Features
-* **Active Tone Control:** Independent attenuation and amplification ($\pm20dB$) for bass (<500Hz) and treble (>1kHz) frequencies using an RC feedback network[cite: 311, 314, 327].
-* **Discrete Analog Design:** The audio path and power regulation are built around classic Bipolar Junction Transistors (BC109C, BC107, BD135)[cite: 313, 557, 851, 916].
-* **Integrated Linear Power Supply:** An on-board 25V regulated power supply featuring a series pass transistor and an error amplifier, ensuring a stable and low-noise power delivery for the audio stages[cite: 824, 825, 847].
+* **Active Tone Control:** Independent attenuation and amplification (20dB) for bass (<500Hz) and treble (>1kHz) frequencies using an RC feedback network[cite: 311, 314, 327].
+* **Discrete Analog Design:** The audio path and power regulation are built around classic Bipolar Junction Transistors (BC109C, BC107, BD135).
+* **Integrated Linear Power Supply:** An on-board 25V regulated power supply featuring a series pass transistor and an error amplifier, ensuring a stable and low-noise power delivery for the audio stages.
 * **Manufacturing Ready:** Includes full documentation, BOM, and manufacturing tables for immediate PCB fabrication.
 
 ## 📂 Repository Structure
@@ -19,7 +19,7 @@ The project files are organized to reflect a standard hardware engineering workf
 * `📂 Bill of materials/` - Comprehensive BOM listing all components required for assembly.
 * `📂 Data Sheet/` - Technical datasheets for the active and passive components used in the design.
 * `📂 Layout/` - OrCAD PCB Editor files containing the board routing and layout data.
-* `📂 Project docs/` - Detailed technical documentation, including mathematical component sizing and design choices[cite: 308, 309].
+* `📂 Project docs/` - Detailed technical documentation, including mathematical component sizing and design choices.
 * `📂 Schematics/` - OrCAD Capture schematic files for the preamplifier and power supply modules.
 * `📂 Simulations/` - PSpice simulation results, including:
   * DC Operating Point (Bias) analysis.
